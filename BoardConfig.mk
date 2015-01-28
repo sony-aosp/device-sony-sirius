@@ -14,9 +14,9 @@
 
 include device/sony/shinano/BoardConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := SGP621
+TARGET_BOOTLOADER_BOARD_NAME := D6503
 
-#Reserve space for data encryption (12253641728-16384)
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253625344
+#Reserve space for data encryption (12656259072-16384)
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 12656242688
 
-PRODUCT_VENDOR_KERNEL_HEADERS += device/sony/scorpion/kernel-headers
+PRODUCT_VENDOR_KERNEL_HEADERS += device/sony/sirius/kernel-headers
